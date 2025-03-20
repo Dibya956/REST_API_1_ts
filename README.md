@@ -1,26 +1,57 @@
+
 # REST_API_1_ts
 
-Dependencies
-Main
-express: Server framework.
-mongoose: MongoDB ORM.
-body-parser: Request body parsing.
-compression: Response compression.
-cookie-parser: Cookie handling.
-cors: Cross-origin resource sharing.
-Dev
-typescript: Static typing.
-ts-node: TypeScript execution.
-nodemon: Development tool for hot reloading.
-License
-This project is licensed under the ISC License.
+This is an REST_API where user can store username and email giving a password.
+
+## Feachers
+ - Stores user name and email with password given by user
+
+ - Replay back to user with this password and email if user is othenticated
+
+ - More feachers can added as users crucial information can be stored in json format
+
+## Tech Stack
+**Server:** Express, Compression, Http, Lodash, Mongoose
+
+#### cloudinary can forther added to store pdf and images provided by user
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Dibya956/REST_API_1_ts
+```
+
+Go to the project directory
+
+```bash
+  cd REST_API_1_ts
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start
+```
 
 
+## Roadmap
 
-This is a TypeScript-based Node.js project designed for scalable server-side applications. It leverages express for API handling, mongoose for database interaction, and several other utilities to streamline development.
+- Install dependencies for the backend.
+- Develop the backend using Express 
+- Use inbuilt function to hash and store the salt you have used to hash
+- Return the user data if user is authenticated
 
-Features
-Express Framework: Lightweight and fast web server.
-Mongoose: MongoDB object modeling for seamless data interaction.
-TypeScript: Ensures robust, type-safe code.
-Nodemon: Automatic server restarts on file changes.
+
+## Acknowledgements
+
+ - [Cloudinary can be used to store the jpg, png, pdf file send by user](https://cloudinary.com/)
+ 
+
